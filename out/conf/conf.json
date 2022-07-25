@@ -1,0 +1,38 @@
+/* 
+  Comments are allowed in JSDoc *.json files.
+*/
+
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "source": {
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "sourceType": "module",
+  "plugins": ["plugins/markdown", "plugins/summarize"],
+  "opts": {
+    "template": "templates/default",  // same as -t templates/default
+    "encoding": "utf8",               // same as -e utf8
+    "destination": "./out/",          // same as -d ./out/
+    "recurse": true//,                // same as -r
+//  "tutorials": ""                   // same as -u path/to/tutorials
+},
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "source": {
+      /* array of paths to files to generate documentation for */
+      "include": ["./scripts/script.js"],
+      /* array of paths to exclude */
+      "exclude": [],
+      "includePattern": ".+\\.js(doc|x)?$",
+      "excludePattern": "(^|\\/|\\\\)_"
+    }
+  }
+}
