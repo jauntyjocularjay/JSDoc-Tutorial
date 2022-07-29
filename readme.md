@@ -1,1 +1,6 @@
-Read Me
+# Run JSDoc
+
+```
+jsdoc ./ -r
+```
+

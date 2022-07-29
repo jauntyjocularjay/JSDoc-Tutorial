@@ -19,6 +19,15 @@ $ jsdoc -c /path/to/conf.json path/to/script.js
 
 # Comments
 
+- in js files, in order to be grabbed they have to follow this format:
+
+```
+/**
+*
+*/
+somecode();
+```
+
 - allowed in JSDoc *.json files.
 
 # Allow comments in .json files with VS Code
@@ -27,3 +36,10 @@ $ jsdoc -c /path/to/conf.json path/to/script.js
 - select Configure Files Association for '.json'
 - type in 'jsonc'
 - selection "JSON  with Comments"
+
+# To add readme.md to index.html
+
+Us3 the -R/--readme option
+
+```jsdoc --readme path/to/readme/README path/to/js```
+

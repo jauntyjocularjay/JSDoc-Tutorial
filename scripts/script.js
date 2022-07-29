@@ -1,12 +1,18 @@
+
+/**
+ * @module script
+ */
+
 /**
  * @description Script.js performs stores elements, listeners and functions.
- * title: A Title 
- * file: script.js
- * This is the description of the script.js file, which is the main 
- * code file that calls other *.js files. 
-*/
+ * This is the description of the script.js file. */
+let script = '';
+
+/** @summary code file that calls other *.js files. */
+function ear() {}
 
 /** @todo Finish the HTML document */
+const url = "";
 
 /** @todo fill the Elements object */
 const Elements = {};
