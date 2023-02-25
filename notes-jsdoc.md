@@ -39,7 +39,7 @@ somecode();
 
 # To add readme.md to index.html
 
-Us3 the -R/--readme option
+Use the -R/--readme option
 
 ```jsdoc --readme path/to/readme/README path/to/js```
 
